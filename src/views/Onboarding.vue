@@ -1,7 +1,7 @@
 <template>
   <div class="onboarding">
     <div class="onboarding__title">Enjoy your online shopping</div>
-    <a href="#">Start shopping</a>
+    <a href="#" class="btn btn-primary">Start shopping</a>
   </div>
 </template>
 
@@ -11,6 +11,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
+@import "src/assets/scss/main.scss";
 
 </style>
