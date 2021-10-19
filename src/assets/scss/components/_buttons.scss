@@ -1,20 +1,27 @@
 .btn {
-  padding: 12px 32px;
+  padding: 12px 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  border-radius: 4px;
+  font-size: 15px;
+  line-height: 24px;
+  border-radius: 6px;
+  background-color: #1212A5;
+  color: #FFFFFF;
+  border: none;
+  width: 100%;
 
   &-primary {
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #FFFFFF !important;
+    background-color: #4747EB;
+
+    &:active, &:focus, &:hover {
+      background-color: #4747EB;
+      color: #FFFFFF;
+    }
   }
   &-outline {
+
     &-primary {
       color: #000000;
 
