@@ -29,6 +29,15 @@
       color: #FFFFFF;
     }
   }
+  &-plain {
+    background-color: #fff;
+    color: #364259;
+
+    &:active, &:focus, &:hover {
+      background-color: #fff;
+      color: #364259;
+    }
+  }
   &-outline {
 
     &-primary {
