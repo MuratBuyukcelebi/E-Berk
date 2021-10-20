@@ -12,6 +12,15 @@
   border: none;
   width: 100%;
 
+  &-secondary {
+    background-color: #F8F9FC;
+    color: #364259;
+
+    &:active, &:focus, &:hover {
+      background-color: #F8F9FC;
+      color: #364259;
+    }
+  }
   &-primary {
     background-color: #4747EB;
 
