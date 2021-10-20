@@ -15,6 +15,12 @@ const routes = [
     name: 'Onboarding',
     component: () => import('../views/Onboarding.vue'),
   },
+
+  {
+    path: '/welcome',
+    name: 'Welcome',
+    component: () => import('../views/Welcome.vue'),
+  },
 ]
 
 const router = new VueRouter({
