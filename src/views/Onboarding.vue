@@ -32,12 +32,12 @@ export default {
     overflow: hidden;
 
     &__title {
+      position: relative;
       font-weight: 800;
       font-size: 52px;
       line-height: 68px;
       color: #000;
       margin-bottom: 58px;
-      position: relative;
 
       &:before {
         content: "";
@@ -45,7 +45,7 @@ export default {
         width: 235px;
         height: 39px;
         position: absolute;
-        right: -240px;
+        left: 170px;
         bottom: 50px;
         pointer-events: none;
         z-index: -1;
@@ -57,7 +57,7 @@ export default {
         position: absolute;
         height: 14px;
         width: 64px;
-        right: 44px;
+        left: 54px;
         bottom: -20px;
       }
     }
