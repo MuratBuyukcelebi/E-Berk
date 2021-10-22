@@ -27,46 +27,44 @@ export default {
 <style lang="scss">
 .signup-content {
 
-&__button {
-   height: 24px;
-   width: 24px;
-   margin-right: 12px;
- }
-&__title {
-   font-weight: bold;
-   font-size: 24px;
-   line-height: 32px;
-   color: #000;
- }
-&__description {
-   max-width: 300px;
-   font-size: 14px;
-   line-height: 24px;
-   color: #5A6987;
-   margin-bottom: 16px;
- }
-&__actions {
+  &__button {
+     height: 24px;
+     width: 24px;
+     margin-right: 12px;
+   }
+  &__title {
+     font-weight: bold;
+     font-size: 24px;
+     line-height: 32px;
+     color: #000;
+   }
+  &__description {
+     max-width: 300px;
+     font-size: 14px;
+     line-height: 24px;
+     color: #5A6987;
+     margin-bottom: 16px;
+   }
+  &__actions {
 
-&-button {
-   background: #fff;
-   border: 1px solid #EAEEF5;
-   border-radius: 6px;
-   padding: 12px 16px;
-   font-weight: 500;
-   width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-span  {
-  font-size: 15px;
-  line-height: 24px;
-  color: #111722;
-  width: 100%;
-}
-img {
+    &-button {
+      background: #fff;
+      border: 1px solid #EAEEF5;
+      border-radius: 6px;
+      padding: 12px 16px;
+      font-weight: 500;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
-}
-}
-}
+      span  {
+        font-size: 15px;
+        line-height: 24px;
+        color: #111722;
+        width: 100%;
+      }
+    }
+  }
 }
 </style>
