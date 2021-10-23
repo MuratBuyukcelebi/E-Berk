@@ -6,8 +6,10 @@
     <signup-register/>
       <div class="signup__footer">
         <div class="signup__footer-text">
-          By signing in, you agree to
-          <a href="#">Terms of Service</a> and <a href="#">Privacy Policy.</a>
+         <span>By signing in, you agree to</span>
+          <span>
+            <a href="#">Terms of Service</a> and <a href="/privacypolicy">Privacy Policy.</a>
+          </span>
         </div>
       </div>
   </div>
@@ -70,7 +72,9 @@ export default {
     padding-top: 166px;
 
     &-text {
-      max-width: 278px;
+      max-width: 247px;
+      display: flex;
+      flex-direction: column;
     }
     a {
       color: #5A6987;
