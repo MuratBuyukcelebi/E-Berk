@@ -28,6 +28,12 @@ const routes = [
     component: () => import('../views/Signup.vue'),
   },
 
+  {
+    path: '/privacypolicy',
+    name: 'PrivacyPolicy',
+    component: () => import('../views/PrivacyPolicy.vue'),
+  },
+
 
 ]
 
