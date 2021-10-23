@@ -8,7 +8,7 @@
         <div class="signup__footer-text">
          <span>By signing in, you agree to</span>
           <span>
-            <a href="#">Terms of Service</a> and <a href="/privacypolicy">Privacy Policy.</a>
+            <a href="#">Terms of Service</a> and <a v-bind:href='/privacypolicy/'>Privacy Policy.</a>
           </span>
         </div>
       </div>
