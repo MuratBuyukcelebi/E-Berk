@@ -8,7 +8,15 @@
         <div class="signup__footer-text">
          <span>By signing in, you agree to</span>
           <span>
-            <a href="#">Terms of Service</a> and <a v-bind:href='/privacypolicy/'>Privacy Policy.</a>
+            <router-link :to="{ path: '#'}"
+              style="text-decoration-color: #5A6987;">
+              <span>Terms of Service</span>
+            </router-link>
+            and
+            <router-link :to="{ path: '/privacypolicy'}"
+              style="text-decoration-color: #5A6987;">
+              <span>Privacy Policy.</span>
+            </router-link>
           </span>
         </div>
       </div>
@@ -76,7 +84,7 @@ export default {
       display: flex;
       flex-direction: column;
     }
-    a {
+    span {
       color: #5A6987;
     }
   }
