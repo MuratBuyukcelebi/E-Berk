@@ -4,6 +4,12 @@
     <SignupContent class="mb-3"/>
     <div class="signup__divider mb-3"><span>or</span></div>
     <signup-register/>
+      <div class="signup__footer">
+        <div class="signup__footer-text">
+          By signing in, you agree to
+          <a href="#">Terms of Service</a> and <a href="#">Privacy Policy.</a>
+        </div>
+      </div>
   </div>
 </div>
 </template>
@@ -20,7 +26,7 @@ export default {
 
 <style lang="scss">
 .signup {
-  padding: 68px 0;
+  padding: 68px 0 50px 0;
 
   &__divider {
     position: relative;
@@ -52,6 +58,22 @@ export default {
       width: calc(50% - 16px);
       right: 0;
       z-index: -1;
+    }
+  }
+  &__footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5A6987;
+    padding-top: 166px;
+
+    &-text {
+      max-width: 278px;
+    }
+    a {
+      color: #5A6987;
     }
   }
 }
