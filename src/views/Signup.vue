@@ -13,7 +13,7 @@
               <span>Terms of Service</span>
             </router-link>
             and
-            <router-link :to="{ path: '/privacypolicy'}"
+            <router-link to="/privacypolicy"
               style="text-decoration-color: #5A6987;">
               <span>Privacy Policy.</span>
             </router-link>
