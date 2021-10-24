@@ -1,9 +1,17 @@
 <template>
 <div class="signup">
   <div class="container">
-    <SignupContent class="mb-3"/>
+    <Headline class="mb-3">
+      <template v-slot:title>
+        Sign In
+      </template>
+      <template v-slot:text>
+        Use your email or continue with social to create an account.
+      </template>
+    </Headline>
+    <Social class="mb-3"/>
     <Divider/>
-    <signup-register/>
+    <Signup-register/>
       <div class="signup__footer">
         <div class="signup__footer-text">
          <span>By signing in, you agree to</span>
@@ -25,13 +33,14 @@
 </template>
 
 <script>
-import SignupContent from "../components/SignupContent";
 import SignupRegister from "../components/SignupRegister";
 import Divider from "../components/Divider";
+import Headline from "../components/Headline";
+import Social from "../components/Social";
 
 export default {
   name: "Signup",
-  components: {Divider, SignupRegister, SignupContent},
+  components: {Social, Headline, Divider, SignupRegister},
 }
 </script>
 
@@ -58,5 +67,4 @@ export default {
     }
   }
 }
-
 </style>
