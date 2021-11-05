@@ -17,47 +17,47 @@
 </template>
 
 <script>
-export default {
-  name: "Welcome"
-}
+  export default {
+    name: "Welcome"
+  }
 </script>
 
 <style lang="scss">
-.welcome {
-  padding-top: 196px;
+  .welcome {
+    padding-top: 196px;
 
-  &__image {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 146px;
+    &__image {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 146px;
 
-    img {
-      width: 160px;
-      height: 160px;
+      img {
+        width: 160px;
+        height: 160px;
+      }
+
     }
+    &__content {
+      gap: 8px 0;
+      margin-bottom: 48px;
 
-  }
-  &__content {
-    gap: 8px 0;
-    margin-bottom: 48px;
-
-    &-title {
-      font-weight: bold;
-      font-size: 24px;
-      line-height: 32px;
-      text-align: center;
+      &-title {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+      }
+      &-text {
+        font-size: 14px;
+        color: #5A6987;
+        line-height: 24px;
+        text-align: center;
+      }
     }
-    &-text {
-      font-size: 14px;
-      color: #5A6987;
-      line-height: 24px;
-      text-align: center;
+    &__actions {
+      display: flex;
+      flex-direction: column;
+      gap: 12px 0;
     }
   }
-  &__actions {
-    display: flex;
-    flex-direction: column;
-    gap: 12px 0;
-  }
-}
 </style>

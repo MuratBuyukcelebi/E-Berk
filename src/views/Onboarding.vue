@@ -20,7 +20,6 @@ export default {
 </script>
 
 <style lang="scss">
-
   .onboarding {
     display: flex;
     align-items: flex-end;

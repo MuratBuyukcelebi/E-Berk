@@ -16,10 +16,10 @@
 </template>
 
 <script>
-export default {
-  name: "Headline",
-  props: ['title', 'text']
-}
+  export default {
+    name: "Headline",
+    props: ['title', 'text']
+  }
 </script>
 
 <style lang="scss">

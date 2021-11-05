@@ -2,17 +2,11 @@
   <div class="privacy">
     <div class="container">
       <Headline class="mb-4">
-        <template v-slot:title>
-          Privacy Policy
-        </template>
+        <template v-slot:title>Privacy Policy</template>
         <template v-slot:text>
-          <div style="margin-bottom: 32px">
-            This page is used to inform website visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service, the Chameleon website.
-          </div>
+          <div class="mb-5">This page is used to inform website visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service, the Chameleon website.</div>
         </template>
-        <template v-slot:text2>
-          If you choose to use our Service, then you agree to the collection and use of information in relation with this policy. The Personal Information that we collect are used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy. Our Privacy Policy was created with the help of the Privacy Policy Template Generator.
-        </template>
+        <template v-slot:text2>If you choose to use our Service, then you agree to the collection and use of information in relation with this policy. The Personal Information that we collect are used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy. Our Privacy Policy was created with the help of the Privacy Policy Template Generator.</template>
       </Headline>
       <div class="privacy__content">
         <div class="privacy__content-title">Information Collection and Use</div>
@@ -27,43 +21,43 @@
 </template>
 
 <script>
-import Headline from "../components/Headline";
-export default {
-  name: "PrivacyPolicy",
-  components: {Headline}
-}
+  import Headline from "../components/Headline";
+  export default {
+    name: "PrivacyPolicy",
+    components: {Headline}
+  }
 </script>
 
 <style lang="scss">
-.privacy {
-  padding: 56px 0;
+  .privacy {
+    padding: 56px 0;
 
-  &__button {
-    height: 24px;
-    width: 24px;
-    margin-right: 12px;
-  }
-  &__title {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
-    color: #000;
-  }
-  &__content {
-    margin-bottom: 24px;
+    &__button {
+      height: 24px;
+      width: 24px;
+      margin-right: 12px;
+    }
+    &__title {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 32px;
+      color: #000;
+    }
+    &__content {
+      margin-bottom: 24px;
 
-    &-title {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 24px;
-      margin-bottom: 8px;
-      color: #111722;
-    }
-    &-text {
-      display: flex;
-      flex-direction: column;
-      gap: 16px 0;
+      &-title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+        color: #111722;
+      }
+      &-text {
+        display: flex;
+        flex-direction: column;
+        gap: 16px 0;
+      }
     }
   }
-}
 </style>

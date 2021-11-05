@@ -4,28 +4,26 @@
   </div>
 </template>
 
-<script>
-</script>
-
 <style lang="scss">
-.launch {
-  background-image: url("../assets/image/login.svg");
-  height: 100vh;
-  width: 100%;
-  background-color:#000;
-  background-repeat: no-repeat;
-  background-position: center;
-  &__logo {
+  .launch {
+    background-image: url("../assets/image/login.svg");
+    height: 100vh;
     width: 100%;
-    height: 100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    background-color:#000;
+    background-repeat: no-repeat;
+    background-position: center;
 
-    img {
-      height: 172px;
-      width: 172px;
+    &__logo {
+      width: 100%;
+      height: 100%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        height: 172px;
+        width: 172px;
+      }
     }
   }
-}
 </style>
