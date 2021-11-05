@@ -26,7 +26,6 @@
       <Social/>
     </div>
   </div>
-
 </template>
 
 <script>
