@@ -29,7 +29,7 @@ const routes = [
   },
 
   {
-    path: '/privacypolicy',
+    path: '/privacy',
     name: 'PrivacyPolicy',
     component: () => import('../views/PrivacyPolicy.vue'),
   },
@@ -38,6 +38,11 @@ const routes = [
     path: '/started',
     name: 'Started',
     component: () => import('../views/Started.vue'),
+  },
+  {
+    path: '/forgot',
+    name: 'ForgotPassword',
+    component: () => import('../views/ForgotPassword'),
   },
 
 

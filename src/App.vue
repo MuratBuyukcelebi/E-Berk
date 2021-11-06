@@ -37,5 +37,6 @@
   position: relative;
   height: var(--app-height, 100vh);
   width: var(--app-width, 100%);
+  padding: 68px 0;
 }
 </style>
