@@ -6,19 +6,17 @@
     </Headline>
     <Social class="mb-3"/>
     <Divider/>
-    <form class="d-grid gap-4">
-      <div class="">
+    <form>
+      <div class="mb-4">
         <label class="form-label" for="email">Email</label>
         <input type="text" class="form-control" id="email" placeholder="name@domain.com">
       </div>
-      <div class="">
+      <div class="mb-4">
         <label class="form-label" for="password">Password</label>
         <input type="password" class="form-control" id="password" placeholder="Password">
       </div>
-      <div class="">
         <button type="submit" class="btn btn-primary mb-4">Sign In</button>
         <button type="submit" class="btn btn-plain">Forgot Password?</button>
-      </div>
     </form>
     <div class="signup__footer">
       <div class="signup__footer-text">

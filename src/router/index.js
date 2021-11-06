@@ -44,6 +44,16 @@ const routes = [
     name: 'ForgotPassword',
     component: () => import('../views/ForgotPassword'),
   },
+  {
+    path: '/verification',
+    name: 'Verification',
+    component: () => import('../views/Verification'),
+  },
+  {
+    path: '/reset',
+    name: 'NewPassword',
+    component: () => import('../views/NewPassword'),
+  },
 
 
 ]
