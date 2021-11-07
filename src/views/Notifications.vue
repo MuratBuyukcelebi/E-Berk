@@ -37,6 +37,7 @@
     &__phone {
       display: flex;
       justify-content: center;
+      padding-top: 34px;
 
       &::before {
         content: "";
@@ -44,7 +45,6 @@
         width: 248px;
         height: 498px;
         background-image: url("../assets/image/phone.png");
-        z-index: 0;
       }
     }
     &__alert {
