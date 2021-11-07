@@ -51,7 +51,6 @@
       display: flex;
       justify-content: center;
       align-items: flex-end;
-      height: 40vh;
 
       &-item {
         width: 296px;
