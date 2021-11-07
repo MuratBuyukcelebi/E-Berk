@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Headline class="mb-3">
+    <Headline class="mb-3 pt-4">
       <template #title>Get Started</template>
       <template #text>Use your email to create an account.</template>
     </Headline>

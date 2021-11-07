@@ -24,7 +24,7 @@
 
 <style lang="scss">
   .welcome {
-    padding-top: 196px;
+    padding-top: 152px;
 
     &__image {
       display: flex;

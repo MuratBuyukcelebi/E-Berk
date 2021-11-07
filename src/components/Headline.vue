@@ -34,6 +34,7 @@
     font-size: 24px;
     line-height: 32px;
     color: #000;
+    letter-spacing: -0.02em;
   }
   &__description {
     max-width: 300px;
@@ -41,6 +42,7 @@
     line-height: 24px;
     color: #5A6987;
     margin-bottom: 16px;
+    letter-spacing: -0.015em;
   }
 }
 </style>

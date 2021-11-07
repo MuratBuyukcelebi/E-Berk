@@ -61,7 +61,4 @@ export default {
       }
     }
   }
-  .app {
-    padding: 0 !important;
-  }
 </style>

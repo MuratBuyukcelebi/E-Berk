@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Headline class="mb-3">
+    <Headline class="mb-3 pt-4">
       <template #title>Forgot Password</template>
       <template #text>We need your email adress so we can send you the password reset code.</template>
     </Headline>

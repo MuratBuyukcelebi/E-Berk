@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Headline class="mb-3">
+    <Headline class="mb-3 pt-4">
       <template v-slot:title>Sign In</template>
       <template v-slot:text>Use your email or continue with social to create an account.</template>
     </Headline>
@@ -13,7 +13,7 @@
       </div>
       <div class="mb-4">
         <label class="form-label" for="password">Password</label>
-        <input type="password" class="form-control" id="password" placeholder="Password">
+        <input type="password" class="form-control" id="password" placeholder="At least 8 characters">
       </div>
         <button type="submit" class="btn btn-primary mb-4">Sign In</button>
         <button type="submit" class="btn btn-plain">Forgot Password?</button>

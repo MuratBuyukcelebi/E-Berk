@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Headline class="mb-3">
+    <Headline class="mb-3 pt-4">
       <template #title>New Password</template>
       <template #text>You can create a new password, please don’t forget it too.</template>
     </Headline>

@@ -30,7 +30,7 @@
 
 <style lang="scss">
   .privacy {
-    padding: 56px 0;
+    padding: 24px 0;
 
     &__button {
       height: 24px;

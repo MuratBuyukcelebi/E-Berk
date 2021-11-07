@@ -54,6 +54,11 @@ const routes = [
     name: 'NewPassword',
     component: () => import('../views/NewPassword'),
   },
+  {
+    path: '/notifications',
+    name: 'Notifications',
+    component: () => import('../views/Notifications'),
+  },
 
 
 ]
