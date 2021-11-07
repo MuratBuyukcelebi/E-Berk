@@ -1,6 +1,6 @@
 <template>
   <div class="notification">
-    <div class="container">
+    <div class="notification__container container">
       <div class="notification__phone"></div>
       <div class="notification__alert">
         <div class="notification__alert-item">
@@ -29,6 +29,7 @@
 
 <style lang="scss">
   .notification {
+    position: relative;
     background: #F8F9FB;
     padding-top: 124px;
     height: 100%;
@@ -47,10 +48,13 @@
       }
     }
     &__alert {
-      position: relative;
       display: flex;
       justify-content: center;
       align-items: flex-end;
+      position: absolute;
+      width: 100%;
+      bottom: 338px + 68px;
+      left: 0;
 
       &-item {
         width: 296px;
@@ -94,11 +98,14 @@
       }
     }
     &__content {
+      position: absolute;
       background-color: #fff;
       padding: 32px 12px 58px 12px;
       display: flex;
       flex-direction: column;
-      position: relative;
+      width: 100%;
+      left: 0;
+      bottom: 0;
 
       &-title {
         font-weight: bold;
