@@ -98,6 +98,7 @@
       padding: 32px 12px 58px 12px;
       display: flex;
       flex-direction: column;
+      position: relative;
 
       &-title {
         font-weight: bold;
