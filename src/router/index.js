@@ -6,8 +6,8 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: () => import('../views/Home.vue'),
+    name: 'Launch',
+    component: () => import('../views/Launch.vue'),
   },
 
   {
@@ -39,25 +39,35 @@ const routes = [
     name: 'Started',
     component: () => import('../views/Started.vue'),
   },
+
   {
     path: '/forgot',
     name: 'ForgotPassword',
     component: () => import('../views/ForgotPassword'),
   },
+
   {
     path: '/verification',
     name: 'Verification',
     component: () => import('../views/Verification'),
   },
+
   {
     path: '/reset',
     name: 'NewPassword',
     component: () => import('../views/NewPassword'),
   },
+
   {
     path: '/notifications',
     name: 'Notifications',
     component: () => import('../views/Notifications'),
+  },
+
+  {
+    path: '/home',
+    name: 'Home',
+    component: () => import('../views/Home'),
   },
 
 
