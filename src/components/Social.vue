@@ -19,7 +19,6 @@ export default {
 
 <style lang="scss">
 .social {
-
   &__button {
      background: #fff;
      border: 1px solid #EAEEF5;
