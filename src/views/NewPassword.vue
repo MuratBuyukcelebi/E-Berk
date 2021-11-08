@@ -20,11 +20,10 @@
 
 <script>
   import Headline from "../components/Headline";
-  import Divider from "../components/Divider";
   import Social from "../components/Social";
 
   export default {
     name: "NewPassword",
-    components: {Social, Divider, Headline}
+    components: {Social, Headline}
   }
 </script>
