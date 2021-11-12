@@ -58,7 +58,8 @@
         </div>
       </div>
       <div class="home__banner">
-
+        <div class="home__banner-image"><img src="../assets/image/home/headphone.png" alt="image"></div>
+        <div class="home__banner-text">Up to 25% discount on Airpods!</div>
       </div>
     </div>
     <Navigation/>
@@ -135,6 +136,8 @@
       }
     }
     &__special {
+      margin-bottom: 32px;
+
       &-title {
         display: flex;
         align-items: center;
@@ -192,6 +195,37 @@
         &:last-child {
           margin-right: 0;
         }
+      }
+    }
+    &__banner {
+      position: relative;
+      background-color: #91B5AD;
+      border-radius: 6px;
+      overflow: hidden;
+
+      &-image {
+        position: absolute;
+        bottom: 0;
+        right: -1px;
+      }
+      &-text {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.015em;
+        color: #fff;
+        max-width: 230px;
+        padding: 24px;
+      }
+
+      &:before {
+        background-image: url("data:image/svg+xml,%3Csvg width='330' height='395' viewBox='0 0 330 395' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='62.2385' height='351.769' transform='matrix(0.632736 0.774367 -0.760867 0.648907 278.673 58.8292)' fill='%23496E66'/%3E%3C/svg%3E%0A");
+        content: "";
+        width: 330px;
+        height: 394px;
+        position: absolute;
+        top: -110px;
+        right: -50px;
       }
     }
   }
