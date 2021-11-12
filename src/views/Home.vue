@@ -35,7 +35,30 @@
             <div class="home__special-item__image"><img src="../assets/image/home/item.png" alt="image"></div>
             <div class="home__special-item__content">Up to 25% discounts on baby care and cosmetics</div>
           </div>
+          <div class="home__special-item">
+            <div class="home__special-item__image"><img src="../assets/image/home/item.png" alt="image"></div>
+            <div class="home__special-item__content">Up to 25% discounts on baby care and cosmetics</div>
+          </div>
+          <div class="home__special-item">
+            <div class="home__special-item__image"><img src="../assets/image/home/item.png" alt="image"></div>
+            <div class="home__special-item__content">Up to 25% discounts on baby care and cosmetics</div>
+          </div>
+          <div class="home__special-item">
+            <div class="home__special-item__image"><img src="../assets/image/home/item.png" alt="image"></div>
+            <div class="home__special-item__content">Up to 25% discounts on baby care and cosmetics</div>
+          </div>
+          <div class="home__special-item">
+            <div class="home__special-item__image"><img src="../assets/image/home/item.png" alt="image"></div>
+            <div class="home__special-item__content">Up to 25% discounts on baby care and cosmetics</div>
+          </div>
+          <div class="home__special-item">
+            <div class="home__special-item__image"><img src="../assets/image/home/item.png" alt="image"></div>
+            <div class="home__special-item__content">Up to 25% discounts on baby care and cosmetics</div>
+          </div>
         </div>
+      </div>
+      <div class="home__banner">
+
       </div>
     </div>
     <Navigation/>
@@ -55,7 +78,7 @@
   .home {
     &__header {
       padding-top: 12px;
-      padding-bottom: 16px;
+      padding-bottom: 32px;
 
       &-navigation {
         display: flex;
