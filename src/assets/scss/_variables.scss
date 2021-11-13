@@ -1,0 +1,75 @@
+// Variables
+// --------------------------------------------------
+
+
+// == Colors
+// ## Theme default colors
+
+$brand-neutrals-100:     #F8F9FC !default;
+$brand-neutrals-200:     #EAEEF5 !default;
+$brand-neutrals-300:     #D7DDEA !default;
+$brand-neutrals-500:     #5A6987 !default;
+$brand-neutrals-600:     #364259 !default;
+$brand-neutrals-700:     #212A3B !default;
+$brand-neutrals-800:     #111722 !default;
+
+$brand-blurple-600:     #1212A5 !default;
+$brand-blurple-500:     #4747EB !default;
+$brand-blurple-300:     #D6D6FA !default;
+$brand-blurple-200:     #F1F1FD !default;
+
+$brand-london-600:      #6E496E !default;
+$brand-london-500:      #AD85AD !default;
+$brand-london-300:      #EDE3ED !default;
+$brand-london-200:      #F9F6F9 !default;
+
+$brand-conch-600:       #496E66 !default;
+$brand-conch-500:       #91B5AD !default;
+$brand-conch-300:       #E3EDEB !default;
+$brand-conch-200:       #F6F9F8 !default;
+
+$brand-success-600:     #116946 !default;
+$brand-success-500:     #1DAF75 !default;
+$brand-success-300:     #DDF3EA !default;
+$brand-success-200:     #F4FBF8 !default;
+
+$brand-critical-600:    #AD0B1B !default;
+$brand-critical-500:    #F12237 !default;
+$brand-critical-300:    #FCD4D8 !default;
+$brand-critical-200:    #FEF1F2 !default;
+
+$colors: (
+  "neutrals-100"        $brand-neutrals-100,
+  "neutrals-200"        $brand-neutrals-200,
+  "neutrals-300"        $brand-neutrals-300,
+  "neutrals-500"        $brand-neutrals-500,
+  "neutrals-600"        $brand-neutrals-600,
+  "neutrals-700"        $brand-neutrals-700,
+  "neutrals-800"        $brand-neutrals-800,
+  "blurple-600"         $brand-blurple-600,
+  "blurple-500"         $brand-blurple-500,
+  "blurple-300"         $brand-blurple-300,
+  "blurple-200"         $brand-blurple-200,
+  "london-600"          $brand-london-600,
+  "london-500"          $brand-london-500,
+  "london-300"          $brand-london-300,
+  "london-200"          $brand-london-200,
+  "success-600"         $brand-success-600,
+  "success-500"         $brand-success-500,
+  "success-300"         $brand-success-300,
+  "success-200"         $brand-success-200,
+  "critical-600"        $brand-critical-600,
+  "critical-500"        $brand-critical-500,
+  "critical-300"        $brand-critical-300,
+  "critical-200"        $brand-critical-200,
+);
+
+// == Breakpoints
+// ## Theme breakpoint size
+
+$breakpoint-xs:         0 !default;
+$breakpoint-sm:         576px !default;
+$breakpoint-md:         768px !default;
+$breakpoint-lg:         992px !default;
+$breakpoint-xl:         1200px !default;
+$breakpoint-xxl:        1400px !default;
