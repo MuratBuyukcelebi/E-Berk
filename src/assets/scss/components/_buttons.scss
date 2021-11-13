@@ -7,35 +7,35 @@
   font-size: 15px;
   line-height: 24px;
   border-radius: 6px;
-  background-color: #1212A5;
+  background-color: $brand-blurple-600;
   color: #FFFFFF;
   border: none;
   width: 100%;
 
   &-secondary {
     background-color: #F8F9FC;
-    color: #364259;
+    color: $brand-neutrals-600;
 
     &:active, &:focus, &:hover {
-      background-color: darken(#F8F9FC, 5%);
+      background-color: darken($brand-neutrals-100, 5%);
       color: #364259;
     }
   }
   &-primary {
-    background-color: #4747EB;
+    background-color: $brand-blurple-500;
 
     &:active, &:focus, &:hover {
-      background-color: darken(#4747EB, 5%);
+      background-color: darken($brand-blurple-500, 5%);
       color: #FFFFFF;
     }
   }
   &-plain {
     background-color: #fff;
-    color: #364259;
+    color: $brand-neutrals-600;
 
     &:active, &:focus, &:hover {
       background-color: #fff;
-      color: #364259;
+      color: $brand-neutrals-600;
     }
   }
   &-outline {
