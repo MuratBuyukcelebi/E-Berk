@@ -1,6 +1,6 @@
 <template>
   <div class="launch">
-    <div class="launch__logo"><img src="../assets/icons/logo.png" alt="logo"></div>
+    <div class="launch__logo"><img src="../assets/image/logo.png" alt="logo"></div>
   </div>
 </template>
 

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="welcome">
       <div class="welcome__image">
-        <div class="welcome__image-icon"><img src="../assets/icons/welcome.png" alt="icon"></div>
+        <div class="welcome__image-icon"><img src="../assets/image/welcome.png" alt="icon"></div>
       </div>
       <div class="welcome__content">
         <div class="welcome__content-title">Millions of item. Best shopping experience.</div>

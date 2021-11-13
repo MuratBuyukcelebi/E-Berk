@@ -5,7 +5,7 @@
       <div class="notification__alert">
         <div class="notification__alert-item">
           <div class="notification__alert-title">
-            <span class="notification__alert-logo"><img src="../assets/icons/logo.png" alt="icon">E-Berk</span>
+            <span class="notification__alert-logo"><img src="../assets/image/logo.png" alt="icon">E-Berk</span>
             <span class="notification__alert-time">now</span>
           </div>
           <div class="notification__alert-description">DISCOUNT ALERT! Iphone 11 is %20 off now for the next 15 minutes!</div>

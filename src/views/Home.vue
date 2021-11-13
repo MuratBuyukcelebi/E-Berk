@@ -4,7 +4,7 @@
       <div class="home__header">
         <div class="home__header-navigation">
           <div class="home__header-logo">
-            <img src="../assets/icons/logo.png" alt="logo">
+            <img src="../assets/image/logo.png" alt="logo">
             <span>E-Berk</span>
           </div>
           <div class="home__header-actions">
@@ -60,6 +60,12 @@
       <div class="home__banner">
         <div class="home__banner-image"><img src="../assets/image/home/headphone.png" alt="image"></div>
         <div class="home__banner-text">Up to 25% discount on Airpods!</div>
+      </div>
+      <div class="home-recommended">
+        <div class="home-recommended__title">
+          <span>Recommended for you</span>
+          <a href="#">See All<img src="../assets/icons/right-arrow.svg" alt="icon"></a>
+        </div>
       </div>
     </div>
     <Navigation/>
