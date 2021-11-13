@@ -2,10 +2,10 @@
   <div class="social">
     <div class="row">
       <div class="col-6">
-        <button class="social__button"><img src="../assets/icons/Google.png" alt="icon"><span>Facebook</span></button>
+        <button class="social__button"><img src="../assets/image/Google.png" alt="icon"><span>Facebook</span></button>
       </div>
       <div class="col-6">
-        <button class="social__button"><img src="../assets/icons/Facebook.png" alt="icon"><span>Facebook</span></button>
+        <button class="social__button"><img src="../assets/image/Facebook.png" alt="icon"><span>Facebook</span></button>
       </div>
     </div>
   </div>
