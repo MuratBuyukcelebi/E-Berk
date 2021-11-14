@@ -33,6 +33,7 @@
 
 <style lang="scss">
   .navigation {
+    background-color: #fff;
     position: fixed;
     bottom: 0;
     border-top:1px solid $brand-neutrals-200;
