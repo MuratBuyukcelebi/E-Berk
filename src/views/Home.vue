@@ -1,70 +1,78 @@
 <template>
   <div class="home">
     <div class="container">
-      <div class="home__header">
-        <div class="home__header-navigation">
-          <div class="home__header-logo">
+      <div class="home-header">
+        <div class="home-header__navigation">
+          <div class="home-header__logo">
             <img src="../assets/image/logo.png" alt="logo">
             <span>E-Berk</span>
           </div>
-          <div class="home__header-actions">
+          <div class="home-header__actions">
             <a href="#"><img src="../assets/icons/home/notifications.svg" alt="icon"></a>
             <a href="#"><img src="../assets/icons/home/bookmark.svg" alt="icon"></a>
           </div>
         </div>
-        <div class="home__header-input">
+        <div class="home-header__input">
           <img src="../assets/icons/home/search.svg" alt="search-icon">
           <input type="text" placeholder="Search product, category or brand...">
         </div>
       </div>
-      <div class="home__special">
-        <div class="home__special-title">
+      <div class="home-special">
+        <div class="home-special__title">
           <span>Special for today</span>
-          <div class="home__special-order">1/8</div>
+          <div class="home-special__order">1/8</div>
         </div>
-        <div class="home__special-list">
-          <div class="home__special-item">
-            <div class="home__special-item__image"><img src="../assets/image/home/item.png" alt="image"></div>
-            <div class="home__special-item__content">Up to 25% discounts on baby care and cosmetics</div>
+        <div class="home-special__list">
+          <div class="home-special__item">
+            <div class="home-special__item-image"><img src="../assets/image/home/item.png" alt="image"></div>
+            <div class="home-special__item-content">Up to 25% discounts on baby care and cosmetics</div>
           </div>
-          <div class="home__special-item">
-            <div class="home__special-item__image"><img src="../assets/image/home/item.png" alt="image"></div>
-            <div class="home__special-item__content">Up to 25% discounts on baby care and cosmetics</div>
+          <div class="home-special__item">
+            <div class="home-special__item-image"><img src="../assets/image/home/item.png" alt="image"></div>
+            <div class="home-special__item-content">Up to 25% discounts on baby care and cosmetics</div>
           </div>
-          <div class="home__special-item">
-            <div class="home__special-item__image"><img src="../assets/image/home/item.png" alt="image"></div>
-            <div class="home__special-item__content">Up to 25% discounts on baby care and cosmetics</div>
+          <div class="home-special__item">
+            <div class="home-special__item-image"><img src="../assets/image/home/item.png" alt="image"></div>
+            <div class="home-special__item-content">Up to 25% discounts on baby care and cosmetics</div>
           </div>
-          <div class="home__special-item">
-            <div class="home__special-item__image"><img src="../assets/image/home/item.png" alt="image"></div>
-            <div class="home__special-item__content">Up to 25% discounts on baby care and cosmetics</div>
+          <div class="home-special__item">
+            <div class="home-special__item-image"><img src="../assets/image/home/item.png" alt="image"></div>
+            <div class="home-special__item-content">Up to 25% discounts on baby care and cosmetics</div>
           </div>
-          <div class="home__special-item">
-            <div class="home__special-item__image"><img src="../assets/image/home/item.png" alt="image"></div>
-            <div class="home__special-item__content">Up to 25% discounts on baby care and cosmetics</div>
+          <div class="home-special__item">
+            <div class="home-special__item-image"><img src="../assets/image/home/item.png" alt="image"></div>
+            <div class="home-special__item-content">Up to 25% discounts on baby care and cosmetics</div>
           </div>
-          <div class="home__special-item">
-            <div class="home__special-item__image"><img src="../assets/image/home/item.png" alt="image"></div>
-            <div class="home__special-item__content">Up to 25% discounts on baby care and cosmetics</div>
+          <div class="home-special__item">
+            <div class="home-special__item-image"><img src="../assets/image/home/item.png" alt="image"></div>
+            <div class="home-special__item-content">Up to 25% discounts on baby care and cosmetics</div>
           </div>
-          <div class="home__special-item">
-            <div class="home__special-item__image"><img src="../assets/image/home/item.png" alt="image"></div>
-            <div class="home__special-item__content">Up to 25% discounts on baby care and cosmetics</div>
+          <div class="home-special__item">
+            <div class="home-special__item-image"><img src="../assets/image/home/item.png" alt="image"></div>
+            <div class="home-special__item-content">Up to 25% discounts on baby care and cosmetics</div>
           </div>
-          <div class="home__special-item">
-            <div class="home__special-item__image"><img src="../assets/image/home/item.png" alt="image"></div>
-            <div class="home__special-item__content">Up to 25% discounts on baby care and cosmetics</div>
+          <div class="home-special__item">
+            <div class="home-special__item-image"><img src="../assets/image/home/item.png" alt="image"></div>
+            <div class="home-special__item-content">Up to 25% discounts on baby care and cosmetics</div>
           </div>
         </div>
       </div>
-      <div class="home__banner">
-        <div class="home__banner-image"><img src="../assets/image/home/headphone.png" alt="image"></div>
-        <div class="home__banner-text">Up to 25% discount on Airpods!</div>
+      <div class="home-banner">
+        <div class="home-banner__image"><img src="../assets/image/home/headphone.png" alt="image"></div>
+        <div class="home-banner__text">Up to 25% discount on Airpods!</div>
       </div>
       <div class="home-recommended">
         <div class="home-recommended__title">
           <span>Recommended for you</span>
           <a href="#">See All<img src="../assets/icons/right-arrow.svg" alt="icon"></a>
+        </div>
+        <div class="home-recommended__menu">
+          <div class="home-recommended__menu-item">
+            <div class="home-recommended__menu-item__image">
+              <img src="../assets/image/home/notebook.png" alt="image">
+            </div>
+            <div class="home-recommended__menu-item__title">Macbook Pro 2020</div>
+          </div>
         </div>
       </div>
     </div>
@@ -83,17 +91,17 @@
 
 <style lang="scss">
   .home {
-    &__header {
+    &-header {
       padding-top: 12px;
       padding-bottom: 32px;
 
-      &-navigation {
+      &__navigation {
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin-bottom: 12px;
       }
-      &-logo {
+      &__logo {
         display: flex;
         align-items: center;
 
@@ -110,13 +118,13 @@
           margin-right: 12px;
         }
       }
-      &-actions {
+      &__actions {
         display: flex;
         align-items: center;
         gap: 0 4px;
       }
-      &-input {
-        border: 1px solid $brand-neutrals-500;
+      &__input {
+        border: 1px solid $brand-neutrals-200;
         border-radius: 6px;
         padding: 12px;
         display: flex;
@@ -141,10 +149,10 @@
         }
       }
     }
-    &__special {
+    &-special {
       margin-bottom: 32px;
 
-      &-title {
+      &__title {
         display: flex;
         align-items: center;
         margin-bottom: 16px;
@@ -158,12 +166,12 @@
           margin-right: 12px;
         }
       }
-      &-order {
+      &__order {
         font-size: 12px;
         line-height: 16px;
         letter-spacing: -0.005em;
         color: $brand-neutrals-600;
-        background: #F8F9FC;
+        background: $brand-neutrals-100;
         border-radius: 12px;
         width: 42px;
         height: 24px;
@@ -171,23 +179,23 @@
         justify-content: center;
         align-items: center;
       }
-      &-list {
+      &__list {
         white-space: nowrap;
         overflow: auto;
       }
-      &-item {
+      &__item {
         display: inline-block;
         border-radius: 6px;
         overflow: hidden;
         margin-right: 12px;
         background-color: #000;
 
-        &__image {
+        &-image {
           img {
             width: 100%;
           }
         }
-        &__content {
+        &-content {
           color: #fff;
           padding: 16px;
           font-weight: 500;
@@ -203,18 +211,19 @@
         }
       }
     }
-    &__banner {
+    &-banner {
       position: relative;
       background-color: $brand-conch-500;
       border-radius: 6px;
       overflow: hidden;
+      margin-bottom: 32px;
 
-      &-image {
+      &__image {
         position: absolute;
         bottom: 0;
         right: -1px;
       }
-      &-text {
+      &__text {
         font-weight: bold;
         font-size: 18px;
         line-height: 24px;
@@ -232,6 +241,44 @@
         position: absolute;
         top: -110px;
         right: -50px;
+      }
+    }
+    &-recommended {
+      margin-bottom: 32px;
+
+      &__title {
+        display: flex;
+        justify-content: space-between;
+
+        span {
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 24px;
+          letter-spacing: -0.015em;
+        }
+        a {
+          display: flex;
+          align-items: center;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 24px;
+          letter-spacing: -0.015em;
+          text-decoration: none;
+          color: $brand-blurple-500;
+        }
+      }
+      &__menu {
+        white-space: nowrap;
+        overflow: auto;
+
+        &-item {
+          &__image {
+            display: inline-block;
+            background-color: $brand-neutrals-100;
+            padding: 4px;
+            border-radius: 6px;
+          }
+        }
       }
     }
   }
