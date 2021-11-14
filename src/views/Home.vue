@@ -116,7 +116,7 @@
         gap: 0 4px;
       }
       &-input {
-        border: 1px solid #EAEEF5;
+        border: 1px solid $brand-neutrals-500;
         border-radius: 6px;
         padding: 12px;
         display: flex;
