@@ -35,7 +35,7 @@
   .navigation {
     position: fixed;
     bottom: 0;
-    border-top:1px solid #EAEEF5;
+    border-top:1px solid $brand-neutrals-200;
     width: 100%;
 
     &__menu {
@@ -64,7 +64,7 @@
           line-height: 16px;
           text-align: center;
           letter-spacing: -0.005em;
-          color: #212A3B;
+          color: $brand-neutrals-700;
         }
       }
     }

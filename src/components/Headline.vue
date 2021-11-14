@@ -40,7 +40,7 @@
     max-width: 300px;
     font-size: 14px;
     line-height: 24px;
-    color: #5A6987;
+    color: $brand-neutrals-500;
     margin-bottom: 16px;
     letter-spacing: -0.015em;
   }

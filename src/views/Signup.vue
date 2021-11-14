@@ -56,7 +56,7 @@
       text-align: center;
       font-size: 12px;
       line-height: 16px;
-      color: #5A6987;
+      color: $brand-neutrals-500;
       padding-top: 166px;
 
       &-text {
@@ -65,7 +65,7 @@
         flex-direction: column;
       }
       span {
-        color: #5A6987;
+        color: $brand-neutrals-500;
       }
     }
   }

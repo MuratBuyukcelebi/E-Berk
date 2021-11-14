@@ -26,7 +26,7 @@ export default {
     content: "";
     position: absolute;
     height: 1px;
-    background-color: #F8F9FC;
+    background-color: $brand-neutrals-100;
     width: calc(50% - 16px);
     left: 0;
     z-index: -1;
@@ -35,7 +35,7 @@ export default {
     content: "";
     position: absolute;
     height: 1px;
-    background-color: #F8F9FC;
+    background-color: $brand-neutrals-100;
     width: calc(50% - 16px);
     right: 0;
     z-index: -1;

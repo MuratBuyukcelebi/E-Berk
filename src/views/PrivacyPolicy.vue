@@ -51,7 +51,7 @@
         font-size: 16px;
         line-height: 24px;
         margin-bottom: 8px;
-        color: #111722;
+        color: $brand-neutrals-800;
       }
       &-text {
         display: flex;

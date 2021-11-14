@@ -30,7 +30,7 @@
 <style lang="scss">
   .notification {
     position: relative;
-    background: #F8F9FB;
+    background: $brand-neutrals-100;
     padding-top: 124px;
     height: 100%;
 
@@ -121,7 +121,7 @@
         line-height: 24px;
         text-align: center;
         letter-spacing: -0.015em;
-        color: #5A6987;
+        color: $brand-neutrals-500;
         margin-bottom: 36px;
       }
     }

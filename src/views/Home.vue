@@ -162,7 +162,7 @@
         font-size: 12px;
         line-height: 16px;
         letter-spacing: -0.005em;
-        color: #364259;
+        color: $brand-neutrals-600;
         background: #F8F9FC;
         border-radius: 12px;
         width: 42px;
@@ -205,7 +205,7 @@
     }
     &__banner {
       position: relative;
-      background-color: #91B5AD;
+      background-color: $brand-conch-500;
       border-radius: 6px;
       overflow: hidden;
 

@@ -49,7 +49,7 @@
       }
       &-text {
         font-size: 14px;
-        color: #5A6987;
+        color: $brand-neutrals-500;
         line-height: 24px;
         text-align: center;
       }

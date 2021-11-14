@@ -21,7 +21,7 @@ export default {
 .social {
   &__button {
      background: #fff;
-     border: 1px solid #EAEEF5;
+     border: 1px solid $brand-neutrals-200;
      border-radius: 6px;
      padding: 12px 16px;
      font-weight: 500;
@@ -33,7 +33,7 @@ export default {
     span  {
       font-size: 15px;
       line-height: 24px;
-      color: #111722;
+      color: $brand-neutrals-800;
       width: 100%;
     }
   }
