@@ -72,6 +72,24 @@
               <img src="../assets/image/home/notebook.png" alt="image">
             </div>
             <div class="home-recommended__menu-item__title">Macbook Pro 2020</div>
+            <div class="home-recommended__menu-item__description">16-inch, 16GB RAM, 512GB</div>
+            <div class="home-recommended__menu-item__price"><span>$1,499.00</span><span class="discount">$1,640.00</span></div>
+          </div>
+          <div class="home-recommended__menu-item">
+            <div class="home-recommended__menu-item__image">
+              <img src="../assets/image/home/notebook.png" alt="image">
+            </div>
+            <div class="home-recommended__menu-item__title">Macbook Pro 2020</div>
+            <div class="home-recommended__menu-item__description">16-inch, 16GB RAM, 512GB</div>
+            <div class="home-recommended__menu-item__price"><span>$1,499.00</span><span class="discount">$1,640.00</span></div>
+          </div>
+          <div class="home-recommended__menu-item">
+            <div class="home-recommended__menu-item__image">
+              <img src="../assets/image/home/notebook.png" alt="image">
+            </div>
+            <div class="home-recommended__menu-item__title">Macbook Pro 2020</div>
+            <div class="home-recommended__menu-item__description">16-inch, 16GB RAM, 512GB</div>
+            <div class="home-recommended__menu-item__price"><span>$1,499.00</span><span class="discount">$1,640.00</span></div>
           </div>
         </div>
       </div>
@@ -91,6 +109,8 @@
 
 <style lang="scss">
   .home {
+    padding-bottom: 66px;
+
     &-header {
       padding-top: 12px;
       padding-bottom: 32px;
@@ -249,6 +269,7 @@
       &__title {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 16px;
 
         span {
           font-weight: bold;
@@ -272,11 +293,54 @@
         overflow: auto;
 
         &-item {
+          display: inline-block;
+          margin-right: 16px;
+
           &__image {
             display: inline-block;
             background-color: $brand-neutrals-100;
             padding: 4px;
             border-radius: 6px;
+            margin-bottom: 8px;
+          }
+          &__title {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 24px;
+            letter-spacing: -0.015em;
+            color: #000;
+          }
+          &__description {
+            color: $brand-neutrals-500;
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: -0.005em;
+            margin-bottom: 8px;
+          }
+          &__price {
+            display: flex;
+
+            & .discount {
+              font-size: 12px;
+              line-height: 16px;
+              letter-spacing: -0.01em;
+              color: $brand-neutrals-300;
+              text-decoration: line-through;
+              display: flex;
+              align-items: flex-start;
+            }
+            span {
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 24px;
+              letter-spacing: -0.015em;
+              color: $brand-blurple-500;
+              margin-right: 12px;
+            }
+          }
+
+          &:last-child {
+            margin-right: 0;
           }
         }
       }
