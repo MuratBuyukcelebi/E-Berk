@@ -1,6 +1,6 @@
 <template>
   <div class="notification">
-    <div class="notification__container container">
+    <div class="container">
       <div class="notification__phone"></div>
       <div class="notification__alert">
         <div class="notification__alert-item">
