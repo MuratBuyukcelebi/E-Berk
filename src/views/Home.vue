@@ -347,6 +347,7 @@
         padding: 24px;
       }
 
+      // TODO:Css ile yapılacak.
       &:before {
         background-image: url("data:image/svg+xml,%3Csvg width='330' height='395' viewBox='0 0 330 395' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='62.2385' height='351.769' transform='matrix(0.632736 0.774367 -0.760867 0.648907 278.673 58.8292)' fill='%23496E66'/%3E%3C/svg%3E%0A");
         content: "";
