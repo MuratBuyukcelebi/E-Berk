@@ -347,25 +347,26 @@
         padding: 24px;
       }
 
-      // TODO:Css ile yapılacak.
-      &:before {
-        background-image: url("data:image/svg+xml,%3Csvg width='330' height='395' viewBox='0 0 330 395' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='62.2385' height='351.769' transform='matrix(0.632736 0.774367 -0.760867 0.648907 278.673 58.8292)' fill='%23496E66'/%3E%3C/svg%3E%0A");
-        content: "";
-        width: 330px;
-        height: 394px;
-        position: absolute;
-        top: -110px;
-        right: -50px;
-      }
-
       &.phone {
         background-color: $brand-neutrals-100 !important;
       }
       &.phone &__text {
         color: $brand-neutrals-700 !important;
       }
-      &.phone &:before {
-        background-image: url("data:image/svg+xml,%3Csvg width='308' height='277' viewBox='0 0 308 277' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='62.2385' height='351.769' transform='matrix(0.632736 0.774367 -0.760867 0.648907 267.649 0)' fill='%23EAEEF5'/%3E%3C/svg%3E%0A") !important;
+      &.phone:before {
+        background-color: $brand-neutrals-200 !important;
+      }
+
+      &:before {
+        content: "";
+        position: absolute;
+        background-color: #496E66;
+        clip-path: polygon(60% 0, 100% 0, 40% 100%, 0 100%);
+        height: 120px;
+        width: 240px;
+        right: -60px;
+        overflow: hidden;
+        bottom: 0;
       }
     }
     &-recommended {
