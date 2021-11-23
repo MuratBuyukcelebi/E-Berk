@@ -1,19 +1,19 @@
 <template>
   <div class="notification">
     <div class="container">
-      <div class="notification__phone"></div>
-      <div class="notification__alert">
-        <div class="notification__alert-item">
-          <div class="notification__alert-title">
-            <span class="notification__alert-logo"><img src="../assets/image/logo.png" alt="icon">E-Berk</span>
-            <span class="notification__alert-time">now</span>
+      <div class="phone"></div>
+      <div class="alert">
+        <div class="alert__item">
+          <div class="alert__item-title">
+            <span class="alert__item-logo"><img src="../assets/image/logo.png" alt="icon">E-Berk</span>
+            <span class="alert__item-time">now</span>
           </div>
-          <div class="notification__alert-description">DISCOUNT ALERT! Iphone 11 is %20 off now for the next 15 minutes!</div>
+          <div class="alert__item-description">DISCOUNT ALERT! Iphone 11 is %20 off now for the next 15 minutes!</div>
         </div>
       </div>
-      <div class="notification__content">
-        <div class="notification__content-title">Don’t miss opportunities with notifications!</div>
-        <div class="notification__content-description">Be the first to know!</div>
+      <div class="content">
+        <div class="content__title">Don’t miss opportunities with notifications!</div>
+        <div class="content__description">Be the first to know!</div>
         <button class="btn btn-primary mb-3">Keep  me notified</button>
         <button class="btn btn-secondary">No, thanks</button>
       </div>
@@ -27,42 +27,42 @@
   }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
   .notification {
     position: relative;
     background: $brand-neutrals-100;
     padding-top: 124px;
     height: 100%;
+  }
+  .phone {
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
 
-    &__phone {
-      display: flex;
-      justify-content: center;
-      padding-top: 34px;
-
-      &::before {
-        content: "";
-        position: absolute;
-        width: 248px;
-        height: 498px;
-        background-image: url("../assets/image/phone.png");
-      }
-    }
-    &__alert {
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
+    &::before {
+      content: "";
       position: absolute;
-      width: 100%;
-      bottom: 338px + 68px;
-      left: 0;
+      width: 248px;
+      height: 498px;
+      background-image: url("../assets/image/phone.png");
+    }
+  }
+  .alert {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    width: 100%;
+    bottom: 338px + 68px;
+    left: 0;
 
-      &-item {
-        width: 296px;
-        background: rgba(255, 255, 255, 0.88);
-        backdrop-filter: blur(32px);
-        border-radius: 12px;
-        padding: 16px;
-      }
+    &__item {
+      width: 296px;
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(32px);
+      border-radius: 12px;
+      padding: 16px;
+
       &-title {
         display: flex;
         justify-content: space-between;
@@ -97,33 +97,33 @@
         color: #1C1E21;
       }
     }
-    &__content {
-      position: absolute;
-      background-color: #fff;
-      padding: 32px 12px 58px 12px;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      left: 0;
-      bottom: 0;
+  }
+  .content {
+    position: absolute;
+    background-color: #fff;
+    padding: 32px 12px 58px 12px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    left: 0;
+    bottom: 0;
 
-      &-title {
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 32px;
-        text-align: center;
-        letter-spacing: -0.02em;
-        color: #000;
-        margin-bottom: 12px;
-      }
-      &-description {
-        font-size: 14px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: -0.015em;
-        color: $brand-neutrals-500;
-        margin-bottom: 36px;
-      }
+    &__title {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: #000;
+      margin-bottom: 12px;
+    }
+    &__description {
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: -0.015em;
+      color: $brand-neutrals-500;
+      margin-bottom: 36px;
     }
   }
 </style>
