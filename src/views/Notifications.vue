@@ -1,7 +1,7 @@
 <template>
   <div class="notification">
     <div class="container">
-      <div class="phone"></div>
+      <div class="phone"><img src="../assets/image/phone.png" alt="image"></div>
       <div class="alert">
         <div class="alert__item">
           <div class="alert__item-title">
@@ -32,20 +32,26 @@
     position: relative;
     background: $brand-neutrals-100;
     padding-top: 124px;
-    height: 100%;
+    height: var(--app-height, 100%);
   }
   .phone {
     display: flex;
     justify-content: center;
-    padding-top: 34px;
+    position: fixed;
+    width: var(--app-width);
 
-    &::before {
+    img {
+      width: calc (var(--app-width) - 128px);
+      height: auto;
+    }
+
+    /*&::before {
       content: "";
       position: absolute;
       width: 248px;
       height: 498px;
       background-image: url("../assets/image/phone.png");
-    }
+    }*/
   }
   .alert {
     display: flex;
