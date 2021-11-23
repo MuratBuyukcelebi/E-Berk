@@ -31,8 +31,8 @@
   .notification {
     position: relative;
     background: $brand-neutrals-100;
-    padding-top: 124px;
-    height: 100%;
+    padding-top: 34%;
+    height: var(--app-height);
   }
   .phone {
     display: flex;
@@ -41,17 +41,8 @@
     width: var(--app-width);
 
     img {
-      width: calc (var(--app-width) - 128px);
       height: auto;
     }
-
-    /*&::before {
-      content: "";
-      position: absolute;
-      width: 248px;
-      height: 498px;
-      background-image: url("../assets/image/phone.png");
-    }*/
   }
   .alert {
     display: flex;
