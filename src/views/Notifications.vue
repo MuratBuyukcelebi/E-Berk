@@ -32,7 +32,7 @@
     position: relative;
     background: $brand-neutrals-100;
     padding-top: 124px;
-    height: var(--app-height, 100%);
+    height: 100%;
   }
   .phone {
     display: flex;
