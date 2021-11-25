@@ -4,7 +4,7 @@
     <div class="navbar">
       <div class="container">
         <div class="navbar__actions">
-          <a class="navbar__actions-back"><img src="../assets/icons/chevron.svg" alt="icon"></a>
+          <a href="#" class="navbar__actions-back"><img src="../assets/icons/chevron.svg" alt="icon"></a>
           <button class="navbar__actions-settings"><img src="../assets/icons/settings.svg" alt="icon"></button>
         </div>
         <div class="navbar__title">Notifications</div>
@@ -25,7 +25,7 @@
             <div class="list-item__description">We have delivered the package numbered 98613470.</div>
             <div class="list-item__date">01/20/2021</div>
           </div>
-          <div class="list-item__close"><img src="../assets/icons/notifications/close.svg" alt="icon"></div>
+          <button class="list-item__close"><img src="../assets/icons/notifications/close.svg" alt="icon"></button>
         </div>
         <div class="list-item">
           <div class="list-item__icon"><img src="../assets/icons/notifications/check.svg" alt="icon"></div>
@@ -34,7 +34,7 @@
             <div class="list-item__description">We have delivered the package numbered 98613470.</div>
             <div class="list-item__date">01/20/2021</div>
           </div>
-          <div class="list-item__close"><img src="../assets/icons/notifications/close.svg" alt="icon"></div>
+          <button class="list-item__close"><img src="../assets/icons/notifications/close.svg" alt="icon"></button>
         </div>
         <div class="list-item">
           <div class="list-item__icon"><img src="../assets/icons/notifications/check.svg" alt="icon"></div>
@@ -43,7 +43,7 @@
             <div class="list-item__description">We have delivered the package numbered 98613470.</div>
             <div class="list-item__date">01/20/2021</div>
           </div>
-          <div class="list-item__close"><img src="../assets/icons/notifications/close.svg" alt="icon"></div>
+          <button class="list-item__close"><img src="../assets/icons/notifications/close.svg" alt="icon"></button>
         </div>
       </div>
     </div>
@@ -157,6 +157,14 @@
         line-height: 16px;
         letter-spacing: -0.005em;
         color: #9AA7C1;
+      }
+      &__close {
+        background-color: rgba(#fff, 0);
+        border: none;
+        display: flex;
+        align-items: flex-start;
+        height: 24px;
+        padding: 0;
       }
     }
 
