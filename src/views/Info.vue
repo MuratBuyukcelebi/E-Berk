@@ -1,5 +1,5 @@
 <template>
-  <div class="notification">
+  <div class="info">
     <div class="container">
       <div class="phone"><img src="../assets/image/phone.png" alt="image"></div>
       <div class="alert">
@@ -23,12 +23,12 @@
 
 <script>
   export default {
-    name: "Notifications"
+    name: "Info"
   }
 </script>
 
 <style scoped lang="scss">
-  .notification {
+  .info {
     position: relative;
     background: $brand-neutrals-100;
     padding-top: 34%;

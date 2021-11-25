@@ -59,9 +59,9 @@ const routes = [
   },
 
   {
-    path: '/notifications',
-    name: 'Notifications',
-    component: () => import('../views/Notifications'),
+    path: '/info',
+    name: 'Info',
+    component: () => import('../views/Info'),
   },
 
   {
