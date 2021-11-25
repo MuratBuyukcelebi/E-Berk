@@ -1,6 +1,6 @@
 <template>
   <div class="notifications">
-    <!--Navigation-->
+    <!--Navbar-->
     <div class="navbar">
       <div class="container">
         <div class="navbar__actions">
@@ -48,14 +48,16 @@
       </div>
     </div>
 
+    <!--Navigation-->
     <Navigation/>
   </div>
 </template>
+
 <script>
   import Navigation from "../components/Navigation";
 
   export default {
-      name: "Notifications",
+    name: "Notifications",
     components: {Navigation}
   }
 </script>
