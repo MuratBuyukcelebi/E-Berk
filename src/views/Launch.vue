@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style scoped lang="scss">
   .launch {
     background-image: url("../assets/image/login.svg");
     height: 100vh;

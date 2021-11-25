@@ -48,7 +48,7 @@
   }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
   .signup {
     &__footer {
       display: flex;

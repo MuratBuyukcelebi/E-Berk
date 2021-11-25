@@ -70,7 +70,11 @@ const routes = [
     component: () => import('../views/Home'),
   },
 
-
+  {
+    path: '/notifications',
+    name: 'Notifications',
+    component: () => import('../views/Notifications'),
+  },
 ]
 
 const router = new VueRouter({

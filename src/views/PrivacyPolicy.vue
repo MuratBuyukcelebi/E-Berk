@@ -28,7 +28,7 @@
   }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
   .privacy {
     padding: 24px 0;
 
