@@ -14,11 +14,37 @@
     <!--List-->
     <div class="container">
       <div class="list">
-        <div class="list-empty">
+        <div class="list-empty d-none">
           <div class="list-empty__title">Nothing here!</div>
           <div class="list-empty__description">Your notifications will appaer here.</div>
         </div>
-        <div class="list-item"></div>
+        <div class="list-item">
+          <div class="list-item__icon"><img src="../assets/icons/notifications/check.svg" alt="icon"></div>
+          <div class="list-item__content">
+            <div class="list-item__title">Your order has been delivered.</div>
+            <div class="list-item__description">We have delivered the package numbered 98613470.</div>
+            <div class="list-item__date">01/20/2021</div>
+          </div>
+          <div class="list-item__close"><img src="../assets/icons/notifications/close.svg" alt="icon"></div>
+        </div>
+        <div class="list-item">
+          <div class="list-item__icon"><img src="../assets/icons/notifications/check.svg" alt="icon"></div>
+          <div class="list-item__content">
+            <div class="list-item__title">Your order has been delivered.</div>
+            <div class="list-item__description">We have delivered the package numbered 98613470.</div>
+            <div class="list-item__date">01/20/2021</div>
+          </div>
+          <div class="list-item__close"><img src="../assets/icons/notifications/close.svg" alt="icon"></div>
+        </div>
+        <div class="list-item">
+          <div class="list-item__icon"><img src="../assets/icons/notifications/check.svg" alt="icon"></div>
+          <div class="list-item__content">
+            <div class="list-item__title">Your order has been delivered.</div>
+            <div class="list-item__description">We have delivered the package numbered 98613470.</div>
+            <div class="list-item__date">01/20/2021</div>
+          </div>
+          <div class="list-item__close"><img src="../assets/icons/notifications/close.svg" alt="icon"></div>
+        </div>
       </div>
     </div>
 
@@ -28,11 +54,10 @@
 <script>
   import Navigation from "../components/Navigation";
 
-
-export default {
-    name: "Notifications",
-  components: {Navigation}
-}
+  export default {
+      name: "Notifications",
+    components: {Navigation}
+  }
 </script>
 
 <style scoped lang="scss">
@@ -101,7 +126,42 @@ export default {
         color: $brand-neutrals-500;
       }
     }
-    &-item {}
+    &-item {
+      display: flex;
+      justify-content: center;
+      padding: 16px;
+      border: 1px solid #EAEEF5;
+      border-radius: 6px;
 
+      &__content {
+        padding: 0 16px;
+      }
+      &__title {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -0.015em;
+        color: $brand-neutrals-800;
+        margin-bottom: 4px;
+      }
+      &__description {
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.005em;
+        color: $brand-neutrals-500;
+        margin-bottom: 8px;
+      }
+      &__date {
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 16px;
+        letter-spacing: -0.005em;
+        color: #9AA7C1;
+      }
+    }
+
+    &-item:not(:last-child) {
+      margin-bottom: 16px;
+    }
   }
 </style>
