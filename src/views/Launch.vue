@@ -27,3 +27,11 @@
     }
   }
 </style>
+
+<script>
+  export default {
+    created() {
+      setTimeout( () => this.$router.push({ path: '/onboarding'}), 1500);
+    },
+  }
+</script>
