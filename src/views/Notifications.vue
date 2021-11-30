@@ -58,7 +58,11 @@
 
   export default {
     name: "Notifications",
-    components: {Navigation}
+    components: {Navigation},
+
+    data() {
+      return {}
+    }
   }
 </script>
 
